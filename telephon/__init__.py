@@ -6,7 +6,7 @@ Provides lightweight metrics collection with separate HTTP server
 for Prometheus scraping. Designed for minimal overhead in hot path.
 
 Usage:
-    from internal.telemetry import init_metrics, get_metrics
+    from telemetry import init_metrics, get_metrics
 
     # Initialize at service startup
     metrics = init_metrics(
