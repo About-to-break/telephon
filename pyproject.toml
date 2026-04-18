@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telephon"
+version = "0.1.0"
+description = "Telephon telemetry module"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "About to Break", email = "111evgenos111@gmail.com"}
+]
+license = {text = "Apache 2.0"}
+dependencies = [
+    "pytest",
+    "pytest-asyncio"
+]
