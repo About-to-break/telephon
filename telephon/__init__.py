@@ -32,7 +32,7 @@ Endpoints:
     /metrics/stats   - Heavy metrics (percentiles, distributions)
 """
 
-from .metrics_server import (
+from .telemetry import (
     SafeMetricsCollector,
     init_metrics,
     get_metrics,
@@ -46,4 +46,4 @@ __all__ = [
     "reset_metrics",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
